@@ -24,9 +24,16 @@
         });
 
         hubConnection.on("Receive", function(message) {
-
+            // let message = document.createElement("div")
+            // let userElement = document.createElement("p")
             let messageElement = document.createElement("p");
-            messageElement.textContent = message;
+
+            messageElement.textContent = @User.Claims.First();
+            // userElement.textContent = @User.Identity.Name;
+
+            // message.append(userElement)
+            // message.append(messageElement)
+
             document.getElementById("chatroom").appendChild(messageElement);
         });
 
