@@ -1,6 +1,6 @@
 namespace ProjectForMe
 {
-	public class Program
+    public class Program
 	{
 		public static void Main(string[] args)
 		{
@@ -8,6 +8,7 @@ namespace ProjectForMe
 
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
+			builder.Services.AddSignalR();
 
 			var app = builder.Build();
 
@@ -30,6 +31,7 @@ namespace ProjectForMe
 				name: "default",
 				pattern: "{controller=Home}/{action=Index}/{id?}");
 
+			app.MapHub<ChatHub>("/chat");
 			app.Run();
 		}
 	}

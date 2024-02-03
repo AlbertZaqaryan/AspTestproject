@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ASP\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj": {}
+    "C:\\Users\\User\\Desktop\\ASP\\AspTestproject\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ASP\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj": {
+    "C:\\Users\\User\\Desktop\\ASP\\AspTestproject\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ASP\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ASP\\AspTestproject\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj",
         "projectName": "ProjectForMe",
-        "projectPath": "C:\\Users\\User\\Desktop\\ASP\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ASP\\AspTestproject\\ProjectForMe\\ProjectForMe\\ProjectForMe.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ASP\\ProjectForMe\\ProjectForMe\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ASP\\AspTestproject\\ProjectForMe\\ProjectForMe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.4, )"
